@@ -1,7 +1,5 @@
-Slow Jam
-===========
-
 Slow Jam the Code
+===========
 
 ## Awesome features!
 
