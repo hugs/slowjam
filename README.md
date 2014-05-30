@@ -1,6 +1,9 @@
 Slow Jam the Code
 ===========
 
+![slowjam](https://raw.githubusercontent.com/hugs/slowjam/master/examples/slowjam.gif "Slow Jam the Code")
+
+
 ## Awesome features!
 
 - Plays your code, slowly. Useful for recording software demos or closely watching Selenium user interface tests run.
