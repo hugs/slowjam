@@ -2,6 +2,9 @@
 
 path = require('path')
 fs = require('fs')
+processArgs = require('./process_arguments')
+
+fileForJamming = processArgs()
 
 bin_full_path = fs.realpathSync(__filename)
 bin_dir = path.dirname(fs.realpathSync(__filename))
@@ -11,10 +14,12 @@ lib = path.join(lib_dir, 'slowjam.js')
 slowjam = require(lib)
 jam = new slowjam.SlowJam()
 jam.slowness = 1000
-jam.log = true
-
-jam.load('/Users/hugs/Projects/slowjam/src/examples/hello-litcoffee.litcoffee')
-//jam.load('/Users/hugs/Projects/slowjam/src/examples/hello-coffee.coffee')
-//jam.load('/Users/hugs/Projects/slowjam/src/examples/hello-js.js')
+jam.log = false
+jam.load(fileForJamming)
 jam.play()
+
+
+//jam.load('/Users/hugs/Projects/slowjam/examples/hello-litcoffee.litcoffee')
+//jam.load('/Users/hugs/Projects/slowjam/examples/hello-coffee.coffee')
+//jam.load('/Users/hugs/Projects/slowjam/examples/hello-js.js')
 
