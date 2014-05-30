@@ -27,7 +27,7 @@ marked.setOptions({
 })
 
 function SlowJam() {
-  this.slowness = 250
+  this.slowness = 1000
   this.log = true
   this.fileName = ''
   this.asMarkdown = ''
