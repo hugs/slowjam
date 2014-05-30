@@ -17,9 +17,3 @@ jam.slowness = 1000
 jam.log = false
 jam.load(fileForJamming)
 jam.play()
-
-
-//jam.load('/Users/hugs/Projects/slowjam/examples/hello-litcoffee.litcoffee')
-//jam.load('/Users/hugs/Projects/slowjam/examples/hello-coffee.coffee')
-//jam.load('/Users/hugs/Projects/slowjam/examples/hello-js.js')
-

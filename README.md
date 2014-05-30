@@ -31,7 +31,7 @@ Slow Jam the Code
  
     slowjam = require('slowjam')
     jam = new slowjam.SlowJam()
-    jam.load('/path/to/slowjam-worth-code.js')
+    jam.load('/path/to/slowjam-worthy-code.js')
     jam.play()
     
 ### From the Command Line
