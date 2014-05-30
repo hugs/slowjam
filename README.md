@@ -35,7 +35,7 @@ Slow Jam the Code
     
 ### From the Command Line
 
-      slowjam '/path/to/slowjam-worthy-code.js'
+      slowjam /path/to/slowjam-worthy-code.js
 
 ## Options
 
