@@ -1,2 +1,2 @@
-print ("hello")
-print ("world")
+console.log ("hello")
+console.log ("world")

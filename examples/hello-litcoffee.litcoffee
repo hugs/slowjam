@@ -1,5 +1,6 @@
-    h1 = (text) -> print text
+    h1 = (text) -> console.log text
 
 # How to Say Hello:
-    print "hello"
-    print "world"
+
+    console.log "hello"
+    console.log "world"
