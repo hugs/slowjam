@@ -7,7 +7,7 @@ processArgs = require('./process_arguments')
 fileForJamming = processArgs()
 
 bin_full_path = fs.realpathSync(__filename)
-bin_dir = path.dirname(fs.realpathSync(__filename))
+bin_dir = path.dirname(bin_full_path)
 lib_dir = path.join(bin_dir, '../lib')
 lib = path.join(lib_dir, 'slowjam.js')
 

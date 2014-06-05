@@ -1,6 +1,6 @@
 {
   "name": "slowjam",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Plays your code, slowly.",
   "author": "Jason Huggins <jrhuggins@gmail.com>",
   "keywords": ["slow", "jam", "code"],
