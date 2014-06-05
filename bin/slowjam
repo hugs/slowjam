@@ -13,7 +13,5 @@ lib = path.join(lib_dir, 'slowjam.js')
 
 slowjam = require(lib)
 jam = new slowjam.SlowJam()
-jam.slowness = 1000
-jam.log = false
 jam.load(fileForJamming)
 jam.play()

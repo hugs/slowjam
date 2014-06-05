@@ -28,12 +28,20 @@ Slow Jam the Code
 ## Example usage
 
 ### As a Library
+
+#### Default
  
     slowjam = require('slowjam')
     jam = new slowjam.SlowJam()
     jam.load('/path/to/slowjam-worthy-code.js')
     jam.play()
-    
+
+#### Customized
+    slowjam = require('slowjam')
+    jam = new slowjam.SlowJam({'slowness':2000, 'log':true})
+    jam.load('/path/to/slowjam-worthy-code.js')
+    jam.play()
+
 ### From the Command Line
 
       slowjam /path/to/slowjam-worthy-code.js
@@ -56,10 +64,10 @@ Or slow your jam way down...
     
 ### Logging    
 
-By default, slowjam logs the statement about to be run to stdout.
-
-    > jam.log = true
-
-But you can turn that off, so now your code will run -- slowly, and quietly.
+By default, slowjam does not log the statement about to be run to stdout.
 
     > jam.log = false
+
+But you can turn that on.
+
+    > jam.log = true
